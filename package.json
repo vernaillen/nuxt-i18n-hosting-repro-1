@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxi build",
+    "build": "NITRO_PRESET=vercel-edge nuxi build",
     "dev": "nuxi dev",
     "generate": "nuxi generate",
     "preview": "nuxi preview"
